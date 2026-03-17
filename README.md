@@ -281,5 +281,3 @@ pip install "fastrtc[stt,vad,tts]"
 - Adaptar o LLM para outros provedores (SambaNova, Groq, etc.) trocando apenas o cliente e o `model=...`.
 - Integrar **LangChain** dentro do `echo` do FastRTC (em vez de chamar OpenAI direto), reaproveitando a `chain` do `langchain_demo.py`.
 - Criar uma interface Streamlit/Gradio adicional para visualizar também o texto transcrito e as respostas, lado a lado com o áudio.
-
-# AI-Agent-Audio
